@@ -6,7 +6,7 @@ edition = "2015"
 [dependencies]
 libc = "0.2"
 nix = "0.10"
-glicol = { path = "../main", features = ["bela"]}
+glicol = { version = "0.12", features = ["bela"]}
 
 [dependencies.bela-sys]
 git = "https://github.com/padenot/bela-sys"
